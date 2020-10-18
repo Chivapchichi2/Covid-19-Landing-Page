@@ -1,0 +1,106 @@
+:root {
+  --main-bg-color: #e5e5e5;
+  --hero-bg-color: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #fff8f8 45.66%, #b57474 45.66%);
+  --accent: #fa5652;
+  --green: #035755;
+  --link-color: #00402e;
+  --text-color: #4b4f51;
+  --accent-bg: rgba(250, 86, 82, 0.15);
+  --red: #ff383d;
+  --hero-btn: #fb4c47;
+}
+
+@font-face {
+  font-family: "Gelion";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Gelion/Gelion-Regular.woff") format("woff"),
+    url("../fonts/Gelion/Gelion-Regular.eot") format("embedded-opentype"),
+    url("../fonts/Gelion/Gelion-Regular.svg") format("svg"),
+    url("../fonts/Gelion/Gelion-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelion";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Gelion/Gelion-Medium.woff") format("woff"),
+    url("../fonts/Gelion/Gelion-Medium.eot") format("embedded-opentype"),
+    url("../fonts/Gelion/Gelion-Medium.svg") format("svg"), url("../fonts/Gelion/Gelion-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelion";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/Gelion/Gelion-SemiBold.woff") format("woff"),
+    url("../fonts/Gelion/Gelion-SemiBold.eot") format("embedded-opentype"),
+    url("../fonts/Gelion/Gelion-SemiBold.svg") format("svg"),
+    url("../fonts/Gelion/Gelion-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelion";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Gelion/Gelion-Bold.woff") format("woff"),
+    url("../fonts/Gelion/Gelion-Bold.eot") format("embedded-opentype"),
+    url("../fonts/Gelion/Gelion-Bold.svg") format("svg"), url("../fonts/Gelion/Gelion-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RedHatDisplay";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/RedHatDisplay/RedHatDisplay-Regular.woff") format("woff"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-Regular.eot") format("embedded-opentype"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-Regular.svg") format("svg"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RedHatDisplay";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../fonts/RedHatDisplay/RedHatDisplay-MediumItalic.woff") format("woff"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-MediumItalic.svg") format("svg"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RedHatDisplay";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/RedHatDisplay/RedHatDisplay-Bold.woff") format("woff"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-Bold.eot") format("embedded-opentype"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-Bold.svg") format("svg"),
+    url("../fonts/RedHatDisplay/RedHatDisplay-Bold.ttf") format("truetype");
+}
+
+body {
+  font-family: "Gelion", sans-serif;
+  font-size: 18px;
+  line-height: 2.15;
+
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+}
+
+.titel {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1464px;
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.copy {
+  text-align: center;
+}
