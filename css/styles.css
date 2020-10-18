@@ -19,6 +19,7 @@
     url("../fonts/Gelion/Gelion-Regular.svg") format("svg"),
     url("../fonts/Gelion/Gelion-Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Gelion";
   font-weight: 500;
@@ -27,6 +28,7 @@
     url("../fonts/Gelion/Gelion-Medium.eot") format("embedded-opentype"),
     url("../fonts/Gelion/Gelion-Medium.svg") format("svg"), url("../fonts/Gelion/Gelion-Medium.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Gelion";
   font-weight: 600;
@@ -36,6 +38,7 @@
     url("../fonts/Gelion/Gelion-SemiBold.svg") format("svg"),
     url("../fonts/Gelion/Gelion-SemiBold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Gelion";
   font-weight: 700;
@@ -44,6 +47,7 @@
     url("../fonts/Gelion/Gelion-Bold.eot") format("embedded-opentype"),
     url("../fonts/Gelion/Gelion-Bold.svg") format("svg"), url("../fonts/Gelion/Gelion-Bold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "RedHatDisplay";
   font-weight: 400;
@@ -53,6 +57,7 @@
     url("../fonts/RedHatDisplay/RedHatDisplay-Regular.svg") format("svg"),
     url("../fonts/RedHatDisplay/RedHatDisplay-Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "RedHatDisplay";
   font-weight: 500;
@@ -61,6 +66,7 @@
     url("../fonts/RedHatDisplay/RedHatDisplay-MediumItalic.svg") format("svg"),
     url("../fonts/RedHatDisplay/RedHatDisplay-MediumItalic.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "RedHatDisplay";
   font-weight: 700;
@@ -75,6 +81,9 @@ body {
   font-family: "Gelion", sans-serif;
   font-size: 18px;
   line-height: 2.15;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
 
   color: var(--text-color);
   background-color: var(--main-bg-color);
@@ -94,6 +103,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .container {
   width: 1464px;
   padding: 0 15px;
@@ -103,4 +113,92 @@ body {
 
 .copy {
   text-align: center;
+}
+
+h1.titel,
+h2.titel {
+  color: var(--accent);
+  font-family: "RedHatDisplay", sans-serif;
+  font-weight: 700;
+}
+
+/* H1
+font-size: 32px;
+line-height: 122%;
+/* or 39px */
+
+/* H2
+font-size: 29px;
+line-height: 124%;
+/* or 36px */
+
+.header {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.logo-name {
+  display: inline-block;
+  margin-left: 14px;
+
+  font-family: "RedHatDisplay", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.316;
+  text-transform: uppercase;
+
+  color: var(--green);
+}
+
+.nav-link {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 18px;
+  line-height: 1.222;
+
+  color: var(--green);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hero-btn);
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 45px 17px;
+  margin-left: 40px;
+  border: 2px solid var(--hero-btn);
+  border-radius: 45px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.222;
+
+  color: var(--red);
+  background-color: transparent;
+}
+
+.nav-menu .item + .item {
+  margin-left: 50px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav-menu > .list {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo.link {
+  display: flex;
+  align-items: center;
 }
